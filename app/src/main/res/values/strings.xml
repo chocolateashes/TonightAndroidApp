@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TonightApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bar_rating">Hello world!</string>
+    <string name="bar_name">Settings</string>
+
+    <string-array name="barnames">
+        <item>Nellie\'s Sports Bar</item>
+        <item>Velvet Lounge</item>
+        <item>Dodge City</item>
+        <item>Lounge of Three</item>
+        <item>Twins Jazz</item>
+        <item>Cloak and Dagger</item>
+        <item>Tropicalia</item>
+        <item>Pure Lounge</item>
+        <item>The Prospect</item>
+        <item>Lost Society</item>
+    </string-array>
+</resources>

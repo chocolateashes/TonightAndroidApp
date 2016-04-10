@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/lit">
+<!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+
+        android:src="@drawable/lit"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/barName"
+        android:layout_above="@+id/closinghr"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textSize="15pt"
+        />
+    <TextView
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/closinghr"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black"
+        android:textSize = "10pt"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/address"
+        android:layout_below="@+id/closinghr"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+
+        android:textSize = "5pt"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="310dp"
+        android:id="@+id/collegeb"
+        android:layout_below="@+id/textView"
+        android:background="#80000000"
+
+        android:layout_marginTop="170dp"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/danceb"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="265dp"
+        android:background="#80000000"
+
+
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longlineb"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#80000000"
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hiphopb"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:background="#80000000"
+
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coverb"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="70dp"
+        android:background="#80000000"
+
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/technob"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="265dp"
+        android:background="#80000000"
+
+
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LGBTb"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="70dp"
+        android:background="#80000000"
+
+
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/touristb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:onClick="onClick"
+        android:background="#80000000"
+
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="barmenu"
+            android:id="@+id/homeb"
+            android:background="#80000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/topb"
+            android:onClick="barmenu"
+            android:background="#80000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/searchb"
+            android:onClick="barmenu"
+            android:background="#80000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/profileb"
+            android:onClick="barmenu"
+            android:background="#80000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/tonightmoon"
+        android:layout_alignTop="@+id/collegeb"
+        android:layout_toRightOf="@+id/collegeb"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/collegeb" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="590dp"
+        android:id="@+id/listView" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="listmenu"
+            android:id="@+id/homeb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#80000000" />
+        <Button
+            android:id="@+id/topb"
+            android:onClick="listmenu"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/searchb"
+            android:onClick="listmenu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/profileb"
+            android:onClick="listmenu"
+            android:layout_width="0dp"
+            android:background="#80000000"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
